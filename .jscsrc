@@ -1,0 +1,6 @@
+{
+  "preset": "google",
+  "maximumLineLength": null,
+  "validateIndentation": 4,
+  "esnext": true
+}
