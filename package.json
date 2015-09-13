@@ -1,6 +1,6 @@
 {
   "name": "backbone-decorators",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ES2016 Decorators for Backbone and Marionette",
   "main": "dist/backbone-decorators.js",
   "scripts": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/benmccormick/backbone-decorators",
   "dependencies": {
+    "backbone": "1.0.0 - 1.2.3",
     "underscore": "1.4.4 - 1.8.3"
   },
   "devDependencies": {
