@@ -27,4 +27,28 @@ describe('@on decorator', () => {
         element.find('.item').trigger('click');
         expect(view.itemClicked).to.be.ok;
     });
+
+    it('should not affect parent views', () => {
+        class ParentView extends View {
+            @on('click .item')
+            handleItemClick() {
+                this.itemClicked = true;
+            }
+
+            handleViewClick() {
+                this.viewClicked = true;
+            }
+        }
+
+        class DerivedView extends ParentView {
+            @on('click')
+            handleViewClick() {
+                super.handleViewClick();
+            }
+        }
+
+        var parent = new ParentView();
+        parent.$el.trigger('click');
+        expect(parent.viewClicked).not.to.be.true;
+    });
 });
