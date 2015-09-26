@@ -12,6 +12,9 @@ import Backbone from 'backbone';
 
 export function on(eventName) {
     return function(target, name, descriptor) {
+        if (target.events && !_.has(target, 'events')) {
+            target.events = _.clone(target.events)
+        }
         if (!target.events) {
             target.events = {};
         }
