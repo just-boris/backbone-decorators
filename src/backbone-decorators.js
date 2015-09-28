@@ -36,6 +36,18 @@ export function tagName(value) {
     };
 }
 
+export function className(value) {
+    return function decorator(target) {
+        target.prototype.className = value;
+    };
+}
+
+export function template(value) {
+    return function decorator(target) {
+        target.prototype.template = value;
+    };
+}
+
 //Collections
 
 export function model(modelClass) {
