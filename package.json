@@ -1,6 +1,6 @@
 {
   "name": "backbone-decorators",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "ES2016 Decorators for Backbone and Marionette",
   "main": "dist/backbone-decorators.js",
   "scripts": {
