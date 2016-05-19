@@ -14,3 +14,6 @@ ES2016 Decorators for Backbone and Marionette
 [![devDependency Status](https://david-dm.org/benmccormick
 ,/backbone-decorators/dev-status.svg)](https://david-dm.org/benmccormick
 ,/backbone-decorators#info=devDependencies)
+
+
+This repo is not actively maintained and not necessarily safe to use in production.  If you're interested in contributing and growing it, please open a few PRs that show the direction you want to take it and we can discuss.
