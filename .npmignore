@@ -34,4 +34,6 @@ tmp
 .DS_Store
 .idea
 
-dist
+# Github templates
+ISSUE_TEMPLATE.MD
+PULL_REQUEST_TEMPLATE.md
