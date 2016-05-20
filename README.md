@@ -2,17 +2,17 @@
 
 ES2016 Decorators for Backbone and Marionette
 
-[![Travis build status](http://img.shields.io/travis/benmccormick
-,/backbone-decorators.svg?style=flat)](https://travis-ci.org/benmccormick
+[![Travis build status](http://img.shields.io/travis/just-boris
+,/backbone-decorators.svg?style=flat)](https://travis-ci.org/just-boris
 ,/backbone-decorators)
-[![Test Coverage](https://codeclimate.com/github/benmccormick
+[![Test Coverage](https://codeclimate.com/github/just-boris
 ,/backbone-decorators/badges/coverage.svg)](https://codeclimate.com/github/benmccormick
 ,/backbone-decorators)
-[![Dependency Status](https://david-dm.org/benmccormick
-,/backbone-decorators.svg)](https://david-dm.org/benmccormick
+[![Dependency Status](https://david-dm.org/just-boris
+,/backbone-decorators.svg)](https://david-dm.org/just-boris
 ,/backbone-decorators)
-[![devDependency Status](https://david-dm.org/benmccormick
-,/backbone-decorators/dev-status.svg)](https://david-dm.org/benmccormick
+[![devDependency Status](https://david-dm.org/just-boris
+,/backbone-decorators/dev-status.svg)](https://david-dm.org/just-boris
 ,/backbone-decorators#info=devDependencies)
 
 
